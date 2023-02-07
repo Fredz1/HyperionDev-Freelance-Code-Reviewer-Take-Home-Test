@@ -16,10 +16,10 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the repository
 
 ```bash
-git clone https://github.com/<username>/say-number.git
+git clone https://github.com/Fredz1/HyperionDev-Freelance-Code-Reviewer-Take-Home-Test.git
 ```
-<!-- The text you want to ignore -->
-2. Change into the project directory 
+
+2. Change into the project directory
 
 ```bash
 cd say-number
