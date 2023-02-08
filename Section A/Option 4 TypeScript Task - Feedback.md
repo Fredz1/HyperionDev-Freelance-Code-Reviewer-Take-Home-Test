@@ -4,8 +4,8 @@
 
 ### Correctness
 
-1. The code implements the Caesar Cipher correctly by shifting the alphabet to the right by the specified shift value, taking care of wrap-around.
-1. In TypeScript, you can't use angle brackets ``<T>`` to declare a type parameter. Instead, type parameters are added to the function name, separated by angle brackets.
+1. The code implements the Caesar Cipher correctly by shifting the alphabet to the right by the specified shift value, taking care of wrap-around which is well handled.
+1. In TypeScript, you can't use angle brackets ``<T>`` to declare a type parameter. It is used to declare a type parameter in Java. Instead, type parameters are added to the function name, separated by angle brackets.
 1. The second parameter passed to the function should be of type ``number``.
 1. The variale ``Alphabet`` on line 1 was already been declared in the current scope. To fix this, you can rename the second instance of the identifier on line 7 to another name i.e. , for example: ``const alphabet: AlphabetType = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';``
 1. The print statement on teh final line does not exist in TypeScript or JavaScript. Instead you should use the ```console.log()``` function.
