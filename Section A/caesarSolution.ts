@@ -29,4 +29,4 @@ const caesarCipher = (string: string, shift: number) => {
   return encodedText;
 };
 
-console.log(caesar_cipher('GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.', 39));
+console.log(caesarCipher('GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.', 39));
