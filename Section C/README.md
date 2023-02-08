@@ -64,6 +64,10 @@ $ python
 "One Hundred and Twenty Three Million, Four Hundred and Fifty Six Thousand, Seven Hundred and Eighty Nine."
 ```
 
+## Space complexity justification
+
+The worst-case space complexity of this function is O(n), where n is the number of digits in the input number. This is because the function creates several lists to store intermediate results, such as the list of groups, the list of words, and the final result. The size of these lists will depend on the number of digits in the input number. For example, if the input number has m digits, the list of groups will have m/3 elements (rounded up), the list of words will have at most 3m/3 elements (i.e., m elements), and the final result will have at most 3m/3 + m/3 elements (i.e., 4m/3 elements). Since the size of these lists is proportional to the number of digits in the input number, the space complexity is O(n).
+
 ## Built With
 
 Python - The programming language used
@@ -79,7 +83,3 @@ Frederick Williams
 ## License
 
 This project is licensed under the MIT License.
-
-## Acknowledgments
-
-I would like to thank me.
